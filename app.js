@@ -1,5 +1,6 @@
 'use strict';
 
+/*
 //asking questions
 const name = prompt('What is your name?');
 console.log('Their name is ' + name);
@@ -63,4 +64,20 @@ if (likesVideoGames === 'yes' || likesVideoGames === 'y') {
     alert('Aw, you should give them a try, they\'re very rewarding!');
 } else {
     alert('Please answer with yes or no!');
+}
+
+*/
+
+//moving question
+for (let i = 0; i < 4; i++) {
+    const guessesLeft = ' You have ' + (3 - i) + ' guesses remaining.';
+    const moves = parseInt(prompt('How many times have I moved?'));
+    if (moves > 8) {
+        alert('Not that many!' + guessesLeft);
+    } else if (moves < 8) {
+        alert('More than that!' + guessesLeft);
+    } else if (moves === 8) {
+        alert('That\'s correct!' + guessesLeft);
+        break;
+    }
 }
