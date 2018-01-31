@@ -9,9 +9,9 @@ const petOwner = prompt('Nice to meet you ' + name + '! Do you have any pets?').
 
 console.log('Are they a pet owner?: ' + petOwner);
 
-if (petOwner === ('yes' || 'y')) {
+if (petOwner === 'yes' || petOwner == 'y') {
     alert('Yay, I love animals!');
-} else if (petOwner === ('no' || 'n')) {
+} else if (petOwner === 'no' || petOwner === 'n') {
     alert('Aw, you should get one if you want one!');
 } else {
     alert('Please answer with yes or no!');
@@ -21,9 +21,9 @@ if (petOwner === ('yes' || 'y')) {
 const oregonResident = prompt('Do you live in Oregon ' + name + '?').toLowerCase();
 console.log('Is ' + name + ' an Oregon resident?: ' + oregonResident);
 
-if (oregonResident === ('yes' || 'y')) {
+if (oregonResident === 'yes' || oregonResident === 'y') {
     alert('Oh, neat, I live in Washington!');
-} else if (oregonResident === ('no' || 'n')) {
+} else if (oregonResident === 'no' || oregonResident === 'n') {
     alert('Ah, a fellow out-of-stater; I live in Washington');
 } else {
     alert('Please answer with yes or no!');
@@ -33,9 +33,9 @@ if (oregonResident === ('yes' || 'y')) {
 const musician = prompt('Do you play an instrument ' + name + '?').toLowerCase();
 console.log('Is ' + name + ' a musician?: ' + musician);
 
-if (musician === ('yes' || 'y')) {
+if (musician === 'yes' || musician === 'y') {
     alert('Awesome, I play guitar!');
-} else if (musician === ('no' || 'n')) {
+} else if (musician === 'no' || musician === 'n') {
     alert('You should try to learn one, I play guitar!');
 } else {
     alert('Please answer with yes or no!');
@@ -45,9 +45,9 @@ if (musician === ('yes' || 'y')) {
 const tacoLover = prompt('Do you like tacos ' + name + '?').toLowerCase();
 console.log('Is ' + name + ' a taco fan?: ' + tacoLover);
 
-if (tacoLover === ('yes' || 'y')) {
+if (tacoLover === 'yes' || tacoLover === 'y') {
     alert('Me too! I love tacos!');
-} else if (tacoLover === ('no' || 'n')) {
+} else if (tacoLover === 'no' || tacoLover === 'n') {
     alert(':( Tacos are the best!');
 } else {
     alert('Please answer with yes or no!');
@@ -57,9 +57,9 @@ if (tacoLover === ('yes' || 'y')) {
 const likesVideoGames = prompt('Do you like video games ' + name + '?').toLowerCase();
 console.log('Does ' + name + ' like video games?: ' + likesVideoGames);
 
-if (likesVideoGames === ('yes' || 'y')) {
+if (likesVideoGames === 'yes' || likesVideoGames === 'y') {
     alert('Right on, me too! My favorite game right now is Overwatch.');
-} else if (likesVideoGames === ('no' || 'n')) {
+} else if (likesVideoGames === 'no' || likesVideoGames === 'n') {
     alert('Aw, you should give them a try, they\'re very rewarding!');
 } else {
     alert('Please answer with yes or no!');
