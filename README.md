@@ -6,4 +6,8 @@ This application is a web page designed to include a guessing game consisting of
 
 ## Getting Started 
 
+<<<<<<< HEAD
 To get started, the user must simply download and run the 'index.html' file to play the game!
+=======
+To get started, the user must simply download and run the 'index.html' file to play the game!
+>>>>>>> ae2ed23ca2357a9f39117cb8e07b4fdd0986d6c6
