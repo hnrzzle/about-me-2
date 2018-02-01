@@ -7,3 +7,6 @@ This application is a web page designed to include a guessing game consisting of
 ## Getting Started 
 
 To get started, the user must simply download and run the 'index.html' file to play the game!
+
+## Contributers
+Henrique Oliveira, Jennifer Lipton
