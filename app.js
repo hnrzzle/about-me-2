@@ -1,6 +1,6 @@
 'use strict';
 
-/*
+
 //asking questions
 const name = prompt('What is your name?');
 console.log('Their name is ' + name);
@@ -66,7 +66,6 @@ if (likesVideoGames === 'yes' || likesVideoGames === 'y') {
     alert('Please answer with yes or no!');
 }
 
-*/
 
 // moving question
 for (let i = 0; i < 4; i++) {
@@ -100,6 +99,4 @@ for (let i = 0; i < 7; i++) {
     else  {
         alert('Incorrect');
     }
-
-
 }
