@@ -7,8 +7,11 @@ body
 
 li {
     line-height: 1.25em;
+    display: inline;
 }
 
 #homes {
+    color:blue
+    
     
 }

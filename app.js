@@ -68,7 +68,7 @@ if (likesVideoGames === 'yes' || likesVideoGames === 'y') {
 
 */
 
-//moving question
+// moving question
 for (let i = 0; i < 4; i++) {
     const guessesLeft = ' You have ' + (3 - i) + ' guesses remaining.';
     const moves = parseInt(prompt('How many times have I moved?'));
@@ -77,7 +77,23 @@ for (let i = 0; i < 4; i++) {
     } else if (moves < 8) {
         alert('More than that!' + guessesLeft);
     } else if (moves === 8) {
-        alert('That\'s correct!' + guessesLeft);
+        alert('That\'s correct!');
         break;
     }
+}
+
+// favorite foods
+const faveFoods = ['pizza','tacos'];
+console.log(faveFoods);
+for (let i = 0; i < 6; i++) {
+    const foodGuess = prompt('Can you guess one of my favorite foods?');
+    console.log(foodGuess);
+    if (faveFoods.includes(foodGuess)) {
+        alert('That\'s correct!');
+        break;
+    }
+    else  {
+        alert('NOPE');
+    }
+
 }
