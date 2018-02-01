@@ -83,17 +83,23 @@ for (let i = 0; i < 4; i++) {
 }
 
 // favorite foods
-const faveFoods = ['pizza','tacos'];
+const faveFoods = ['pizza','tacos', 'burritos', 'avocados'];
 console.log(faveFoods);
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 7; i++) {
+    const guesses = i;
     const foodGuess = prompt('Can you guess one of my favorite foods?');
     console.log(foodGuess);
     if (faveFoods.includes(foodGuess)) {
-        alert('That\'s correct!');
+        alert('That\'s correct! You could\'ve answered with, pizza, tacos, burritos or avocados');
+        break;
+    }
+    else if (guesses === 6) {
+        alert('You\'re out of guesses! The correct answeres were pizza, tacos, burritos or avocados');
         break;
     }
     else  {
-        alert('NOPE');
+        alert('Incorrect');
     }
+
 
 }
