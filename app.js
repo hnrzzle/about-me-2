@@ -13,67 +13,69 @@ function getName() {
     return name;
 }
 
+function convert
+
 // pet owner
 
 function friendlyQuestions () {
-    const petOwner = prompt('Nice to meet you ' + name + '! Do you have any pets?').toLowerCase();
+    const petOwner = prompt('Nice to meet you ' + name + '! Can you answer some questions about me? Do I have any pets?').toLowerCase();
 
-    console.log('Are they a pet owner?: ' + petOwner);
+    console.log('answer pet owner: ' + petOwner);
 
     if (petOwner === 'yes' || petOwner == 'y') {
-        alert('Yay, I love animals!');
+        alert('You\'re right, I love animals!');
     } else if (petOwner === 'no' || petOwner === 'n') {
-        alert('Aw, you should get one if you want one!');
+        alert('Nope, I have a dog named Lua and a cat named Momo!');
     } else {
         alert('Please answer with yes or no!');
     }
 
     // do you live in Oregon?
-    const oregonResident = prompt('Do you live in Oregon ' + name + '?').toLowerCase();
-    console.log('Is ' + name + ' an Oregon resident?: ' + oregonResident);
+    const oregonResident = prompt('Do I live in Oregon, ' + name + '?').toLowerCase();
+    console.log('Oregon answer: ' + oregonResident);
 
     if (oregonResident === 'yes' || oregonResident === 'y') {
-        alert('Oh, neat, I live in Washington!');
+        alert('Nope, I live accross the river in Washington!');
     } else if (oregonResident === 'no' || oregonResident === 'n') {
-        alert('Ah, a fellow out-of-stater; I live in Washington');
+        alert('You\'re right! I live in Washington');
     } else {
         alert('Please answer with yes or no!');
     }
-
+    
     // are you a musician?
-    const musician = prompt('Do you play an instrument ' + name + '?').toLowerCase();
-    console.log('Is ' + name + ' a musician?: ' + musician);
+    const musician = prompt('Do I play an instrument, ' + name + '?').toLowerCase();
+    console.log('Am I a musician?' + musician);
 
     if (musician === 'yes' || musician === 'y') {
-        alert('Awesome, I play guitar!');
+        alert('Yep, I play guitar! Albiet not great');
     } else if (musician === 'no' || musician === 'n') {
-        alert('You should try to learn one, I play guitar!');
+        alert('How dare you think that, I play guitar!');
     } else {
         alert('Please answer with yes or no!');
     }
 
     // do you like tacos?
-    const tacoLover = prompt('Do you like tacos ' + name + '?').toLowerCase();
-    console.log('Is ' + name + ' a taco fan?: ' + tacoLover);
+    const tacoLover = prompt('Am I a fan of tacos, ' + name + '?').toLowerCase();
+    console.log('Am I a taco Lover? ' + tacoLover);
 
     if (tacoLover === 'yes' || tacoLover === 'y') {
-        alert('Me too! I love tacos!');
+        alert('Yup, I love tacos!');
     } else if (tacoLover === 'no' || tacoLover === 'n') {
-        alert(':( Tacos are the best!');
+        alert('Why I never! I love tacos!');
     } else {
         alert('Please answer with yes or no!');
     }
 
     // do you like video games?
-    const likesVideoGames = prompt('Do you like video games ' + name + '?').toLowerCase();
+    const likesVideoGames = prompt('Do I like video games, ' + name + '?').toLowerCase();
     console.log('Does ' + name + ' like video games?: ' + likesVideoGames);
 
     if (likesVideoGames === 'yes' || likesVideoGames === 'y') {
-        alert('Right on, me too! My favorite game right now is Overwatch.');
+        alert('Yup, I love video games! My favorite game right now is Overwatch!');
     } else if (likesVideoGames === 'no' || likesVideoGames === 'n') {
-        alert('Aw, you should give them a try, they\'re very rewarding!');
+        alert('That\'s not right, of course I love video games!');
     } else {
-        alert('Please answer with yes or no!');
+        alert('I would\'ve thought you learned by now! Please answer with yes or no!');
     }
 }
 
