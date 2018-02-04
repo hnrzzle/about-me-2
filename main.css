@@ -7,10 +7,15 @@ body
 
 li {
     line-height: 1.25em;
+    font-size: 14px;
 
 }
 
-#homes {
-    color:blue
+ul {
+    list-style-type: square;
+}
+
+#bands {
     
 }
+
