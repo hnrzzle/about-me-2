@@ -13,7 +13,7 @@ body
 }
 
 li {
-    line-height: 1.25em;
+    line-height: 2em;
     font-size: 14px;
 }
 
@@ -21,25 +21,26 @@ ul {
     list-style-type: square;
 }
 
-.questions {
+.about-me {
     background-color: #D1E3DD;
     padding: 0px 20px 15px;
     order: 1;
     border: 3px #D1E3DD solid;
-    margin: 5px;
-    flex-basis: 20%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+    margin: 10px;
+    flex-basis: 27.5%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
+    font-size: 14px;
 
 }
 
-.about-me {
+.questions {
     background-color: #D1E3DD;
     border: 3px #D1E3DD solid;
     padding: 0px 25px 15px;
     order: 2;
     flex-basis: 50%;
-    margin: 5px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+    margin: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
     text-align: justify;
 }
 
@@ -48,9 +49,10 @@ ul {
     padding: 0px 20px 15px;
     order: 3;
     border: 3px #D1E3DD solid;
-    margin: 5px;
-    flex-basis: 10%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
-
+    margin: 10px;
+    flex-basis: 12.5%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
 }
-
+hr {
+    border-color: rgba(0, 0, 0, 0.5);
+}
