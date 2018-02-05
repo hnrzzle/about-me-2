@@ -9,7 +9,7 @@ body
 .content {
     display:flex;
     padding: 10px; 
-    justify-content: space-between;   
+    justify-content: space-between;  
 }
 
 li {
@@ -22,27 +22,35 @@ ul {
 }
 
 .questions {
+    background-color: #D1E3DD;
     padding: 15px;
     order: 1;
     border: 3px #D1E3DD solid;
     margin: 10px;
-    width: 20%;
+    flex-basis: 20%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
 
 }
 
 .about-me {
+    background-color: #D1E3DD;
     border: 3px #D1E3DD solid;
-    padding: 15px;
+    padding: 0px 25px 15px;
     order: 2;
-    width: 50%;
+    flex-basis: 50%;
     margin: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+    text-align: justify;
 }
 
 .bands {
+    background-color: #D1E3DD;
     padding: 15px;
     order: 3;
     border: 3px #D1E3DD solid;
     margin: 10px;
-    width: 20%;
+    flex-basis: 20%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
 
 }
+
